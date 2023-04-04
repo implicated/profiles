@@ -1,0 +1,20 @@
+=== Ref
+
+.Configure
+____
+https://manual.nssurge.com/overview/configuration.html[Official Manual]
+
+https://surge.mitsea.com/overview/components[Official Manual zh-CN]
+
+https://zhuangzhuang.io/2018/11/14/surge.html[壮壮]
+____
+
+.Module
+____
+https://github.com/Rabbit-Spec/Surge[Surge自用配置以及模块和脚本]
+____
+
+.Advanced
+____
+https://community.nssurge.com/d/178-enhanced-mode-vpn[Surge VPN Configure]
+____

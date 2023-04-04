@@ -1,0 +1,8 @@
+#!name=Setapp⚙️
+#!desc=Setapp规则模块
+
+[Rule]
+DOMAIN-SUFFIX,stats.setapp.com,🔐Modules
+DOMAIN-SUFFIX,customer.setapp.com,🔐Modules
+DOMAIN-SUFFIX,user-api.setapp.com,🔐Modules
+DOMAIN-SUFFIX,store.setapp.com,🔐Modules

@@ -1,0 +1,7 @@
+#!name=Temp Direct Rule⚙️
+#!desc=gio bjmantis sentry
+
+[Rule]
+DOMAIN-SUFFIX,growingio.com,🌐Direct
+DOMAIN-SUFFIX,bjmantis.net,🌐Direct
+DOMAIN-SUFFIX,ingest.sentry.io,🔐Modules

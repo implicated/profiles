@@ -1,0 +1,11 @@
+#!name=Jetbrains⚙️
+#!desc=Jetbrains规则模块
+
+[Rule]
+PROCESS-NAME,idea,🔐Modules
+PROCESS-NAME,datagrip,🔐Modules
+PROCESS-NAME,pycharm,🔐Modules
+PROCESS-NAME,webstorm,🔐Modules
+
+DOMAIN-SUFFIX,plugins.jetbrains.com,🔐Modules
+DOMAIN-SUFFIX,package-search.services.jetbrains.com,🔐Modules

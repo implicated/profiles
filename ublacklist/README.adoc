@@ -1,0 +1,17 @@
+这是一个适用于 https://github.com/iorate/uBlacklist/blob/master/README.md[uBlacklist] 的黑名单订阅列表。
+
+== 什么是 uBlacklist
+
+uBlacklist 是一个阻止特定网站出现在 Google 搜索结果中的浏览器扩展。使用它可以屏蔽一些垃圾网站占据你的搜索结果，从而获得更好的搜索体验。
+
+== 下载 uBlacklist
+
+根据所使用的浏览器安装 uBlacklist：
+
+* https://addons.mozilla.org/en-US/firefox/addon/ublacklist/[Firefox]
+* https://apps.apple.com/app/apple-store/id1547912640[Safari]
+* https://chrome.google.com/webstore/detail/ublacklist/pncfbmialoiaghdehhbnbhkkgmjanfhe[Chrome]
+
+
+== Merge Log
+https://github.com/DivineEngine/Profiles/commits/master[Commits on Jul 29, 2022]

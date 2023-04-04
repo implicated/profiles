@@ -1,0 +1,17 @@
+[Proxy]
+🌐Direct = direct
+⛔️Reject = reject
+
+[Proxy Group]
+# > Rule
+🚀Dev = select, include-other-group="🇺🇳"
+🌑Proxy = select, include-other-group="🇺🇲, 🇭🇰, 🇬🇧, 🇸🇬, 🇹🇼"
+🍎Apple = select, include-other-group="🇺🇲, 🇭🇰", 🌐Direct
+🤖OpenAI = select, include-other-group="🇬🇧, 🇺🇲"
+🎞Streaming = select, include-other-group="🇺🇳"
+🎞StreamingSE = select, 🌐Direct, include-other-group="🇺🇳"
+🇨🇳Geo = select, 🌐Direct, ⛔️Reject, 🌑Proxy
+🔐Modules = select, ⛔️Reject, 🌐Direct, 🌑Proxy
+🛡Guard = select, ⛔️Reject, 🌐Direct, 🌑Proxy
+📢Ad = select, ⛔️Reject, 🌐Direct
+🧭Final = select, 🌑Proxy, 🌐Direct, ⛔️Reject

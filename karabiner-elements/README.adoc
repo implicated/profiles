@@ -1,0 +1,5 @@
+https://www.v2ex.com/t/565667[Change input Source]
+
+https://github.com/PowerKeys/PowerKeys[PowerKeys]
+
+https://github.com/pqrs-org/KE-complex_modifications#karabiner-elements-usage[Number&Arrow]
