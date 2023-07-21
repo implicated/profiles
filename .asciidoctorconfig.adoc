@@ -1,0 +1,5 @@
+// .asciidoctorconfig.adoc
+:experimental:
+:sectlinks:
+:sectanchors:
+:sectnums:

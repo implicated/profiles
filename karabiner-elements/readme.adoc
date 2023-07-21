@@ -1,0 +1,13 @@
+https://www.v2ex.com/t/565667[Change input Source]
+
+https://github.com/PowerKeys/PowerKeys[PowerKeys]
+
+https://github.com/pqrs-org/KE-complex_modifications#karabiner-elements-usage[Number&Arrow]
+
+[cols='a,a']
+|===
+| File | Remark
+
+|xref:config/Switch-Input-Source.json[Switch-Input-Source]
+| 使用 kbd:[⇥] 切换输入法，kbd:[⇥]kbd:[⇥] 为正常kbd:[⇥]（排除 `iTerm2` ）
+|===

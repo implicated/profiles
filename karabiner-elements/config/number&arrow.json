@@ -1,0 +1,415 @@
+{
+    "title": "AAA Number & Arrow",
+    "rules": [
+        {
+            "description": "Number",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 0
+                        }
+                    ],
+                    "to_if_held_down": [
+                        {
+                            "set_variable": {
+                                "name": "zy_keys",
+                                "value": 4
+                            }
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "key_code": "caps_lock"
+                        }
+                    ],
+                    "to_after_key_up": [
+                        {
+                            "set_variable": {
+                                "name": "zy_keys",
+                                "value": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "b"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "0"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "n"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "1"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "m"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "2"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "comma"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "3"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "h"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "4"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "j"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "5"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "k"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "6"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "y"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "7"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "u"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "8"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "i"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 4
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "9"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Arraw",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "tab"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 0
+                        }
+                    ],
+                    "to_if_held_down": [
+                        {
+                            "set_variable": {
+                                "name": "zy_keys",
+                                "value": 1
+                            }
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "key_code": "tab"
+                        }
+                    ],
+                    "to_after_key_up": [
+                        {
+                            "set_variable": {
+                                "name": "zy_keys",
+                                "value": 0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "j"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 1
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "down_arrow"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "k"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 1
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "up_arrow"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "l"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 1
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "right_arrow"
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "parameters": {
+                        "basic.simultaneous_threshold_milliseconds": 100,
+                        "basic.to_if_alone_timeout_milliseconds": 250,
+                        "basic.to_if_held_down_threshold_milliseconds": 250
+                    },
+                    "from": {
+                        "key_code": "h"
+                    },
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "zy_keys",
+                            "value": 1
+                        }
+                    ],
+                    "to": [
+                        {
+                            "key_code": "left_arrow"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
