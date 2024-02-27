@@ -1,0 +1,35 @@
+{
+  "timeStamp": 1703125452003,
+  "version": "1.54.0",
+  "userSettings": {
+    "cloudStorageEnabled": true,
+    "importedLists": []
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-quick-fixes",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "plowe-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-large-media: * true",
+  "userFilters": "! 2023-12-19 https://bbs.colg.cn\n||img-cos.colg.cn/uploads/images/202303/4236354_202303250108432007.png/ori_jpg$image\nbbs.colg.cn###\\31 typeid_fast_ctrl\nbbs.colg.cn###ct > .cl.mbm.pgs\nbbs.colg.cn###fastpostform\nbbs.colg.cn###headerTopImg\nbbs.colg.cn###user-wapper\nbbs.colg.cn###zlDetailContainer\nbbs.colg.cn##.bm.bmw.fl.flg\nbbs.colg.cn##.bm_h.cl\nbbs.colg.cn##.pbn.cl.bm_c > div:nth-of-type(1)\nbbs.colg.cn##.card_mn\nbbs.colg.cn##.dy_content\nbbs.colg.cn##.dy_tip_float_wapper\nbbs.colg.cn##.f_bar\nbbs.colg.cn##.f_pls\nbbs.colg.cn##.f_pnpost\nbbs.colg.cn##.f_title\nbbs.colg.cn##.fl_g\nbbs.colg.cn##.fl_row\nbbs.colg.cn##.hdc.cl\nbbs.colg.cn##.optimize-right-container\nbbs.colg.cn##.post\nbbs.colg.cn##.pt.hm.notAllowfastpostmessage\nbbs.colg.cn##.reg-popup-content\nbbs.colg.cn##.register_bg\nbbs.colg.cn##.register_view\nbbs.colg.cn##.sprite_pn_post\nbbs.colg.cn##.user-wapper\nbbs.colg.cn##.zl-detail-container\nbbs.colg.cn##.zl-tab-title\nbbs.colg.cn##.zl-tab-wp\nbbs.colg.cn##li[style=\"display: flex; margin-top: 0px;\"]\n\nbbs.colg.cn###nav-tools-post-a\nbbs.colg.cn##.nav-search-wapper\nbbs.colg.cn###nav-code\nbbs.colg.cn##.pics-list-scroll.nav-pics-list > li\nbbs.colg.cn##div.nav-item:nth-of-type(4)\nbbs.colg.cn##.nav-right-container\nbbs.colg.cn##.annual-list-url\nbbs.colg.cn##.annual-wrapper\nbbs.colg.cn###pgt\nbbs.colg.cn##.login-a\n"
+}
