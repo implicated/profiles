@@ -1,5 +1,7 @@
 #!name=anti-AD
+#!category=fc
 #!desc=https://github.com/privacy-protection-tools/anti-AD
+#!repo=https://github.com/blackmatrix7/ios_rule_script
 
 [Rule]
 DOMAIN-SET,https://cdn.jsdelivr.net/gh/privacy-protection-tools/anti-AD@master/anti-ad-surge2.txt,REJECT
