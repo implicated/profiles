@@ -1,0 +1,6 @@
+#!name=Process⚙️
+#!category=fc
+#!desc=Process规则模块
+
+[Rule]
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,🔐Modules
