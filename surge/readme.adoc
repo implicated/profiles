@@ -2,8 +2,9 @@
 
 == Ruleset
 
-https://github.com/dler-io/Rules[GitHub - dler-io/Rules]
+https://github.com/DivineEngine/Profiles/tree/master[神机规则]
 
+https://github.com/dler-io/Rules[GitHub - dler-io/Rules]
 
 https://github.com/Tartarus2014/For-own-use[GitHub - Tartarus2014/For-own-use]
 
@@ -19,7 +20,6 @@ https://surge.mitsea.com/overview/components[Official Manual zh-CN]
 
 https://zhuangzhuang.io/2018/11/14/surge.html[壮壮]
 
-https://github.com/DivineEngine/Profiles/tree/master[神机规则]
 
 https://blog.skk.moe/post/i-have-my-unique-surge-setup/[我有特别的 Surge 配置和使用技巧 | Sukka's Blog]
 ____
