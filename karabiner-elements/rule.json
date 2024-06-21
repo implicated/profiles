@@ -21,10 +21,12 @@
           ],
           "conditions": [
             {
-              "type": "device_if",
+              "type": "device_unless",
               "identifiers": [
                 {
-                  "vendor_id": 1452
+                  "vendor_id": 1278,
+                  "product_id": 33,
+                  "description": "HHKB"
                 }
               ]
             }
@@ -47,10 +49,12 @@
           ],
           "conditions": [
             {
-              "type": "device_if",
+              "type": "device_unless",
               "identifiers": [
                 {
-                  "vendor_id": 1452
+                  "vendor_id": 1278,
+                  "product_id": 33,
+                  "description": "HHKB"
                 }
               ]
             }
@@ -78,16 +82,6 @@
             {
               "key_code": "f1"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -106,16 +100,6 @@
           "to": [
             {
               "key_code": "f2"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
             }
           ]
         },
@@ -136,16 +120,6 @@
             {
               "key_code": "f3"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -164,16 +138,6 @@
           "to": [
             {
               "key_code": "f4"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
             }
           ]
         },
@@ -194,16 +158,6 @@
             {
               "key_code": "f5"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -222,16 +176,6 @@
           "to": [
             {
               "key_code": "f6"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
             }
           ]
         },
@@ -252,16 +196,6 @@
             {
               "key_code": "f7"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -280,16 +214,6 @@
           "to": [
             {
               "key_code": "f8"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
             }
           ]
         },
@@ -310,16 +234,6 @@
             {
               "key_code": "f9"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -338,16 +252,6 @@
           "to": [
             {
               "key_code": "f10"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
             }
           ]
         },
@@ -368,16 +272,6 @@
             {
               "key_code": "f11"
             }
-          ],
-          "conditions": [
-            {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
-            }
           ]
         },
         {
@@ -397,15 +291,21 @@
             {
               "key_code": "f12"
             }
-          ],
-          "conditions": [
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Right_Command → Fn",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command"
+          },
+          "to": [
             {
-              "type": "device_if",
-              "identifiers": [
-                {
-                  "vendor_id": 1452
-                }
-              ]
+              "apple_vendor_top_case_key_code": "keyboard_fn"
             }
           ]
         }
@@ -636,7 +536,7 @@
           "from": {
             "key_code": "j",
             "modifiers": {
-              "optional": [
+              "mandatory": [
                 "left_command"
               ]
             }
@@ -665,7 +565,7 @@
           "from": {
             "key_code": "k",
             "modifiers": {
-              "optional": [
+              "mandatory": [
                 "left_command"
               ]
             }
