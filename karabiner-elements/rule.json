@@ -63,7 +63,23 @@
       ]
     },
     {
-      "description": "fn + number → Function Key",
+      "description": "Right_Command → Fn",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_command"
+          },
+          "to": [
+            {
+              "apple_vendor_top_case_key_code": "keyboard_fn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Fn + Number → Function Key",
       "manipulators": [
         {
           "type": "basic",
@@ -290,22 +306,6 @@
           "to": [
             {
               "key_code": "f12"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Right_Command → Fn",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "right_command"
-          },
-          "to": [
-            {
-              "apple_vendor_top_case_key_code": "keyboard_fn"
             }
           ]
         }
