@@ -6,14 +6,14 @@
 # > Apple Maps
 PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,🔐Modules
 
-# > Jetbrains
-PROCESS-NAME,idea,🔐Modules
-PROCESS-NAME,datagrip,🔐Modules
-PROCESS-NAME,pycharm,🔐Modules
-PROCESS-NAME,webstorm,🔐Modules
-PROCESS-NAME,goland,🔐Modules
-PROCESS-NAME,appcode,🔐Modules
-PROCESS-NAME,rider,🔐Modules
-
-DOMAIN-SUFFIX,plugins.jetbrains.com,🔐Modules
-DOMAIN-SUFFIX,package-search.services.jetbrains.com,🔐Modules
+# Login
+PROCESS-NAME,AlDente,🔐Modules
+PROCESS-NAME,ClipBoo,🔐Modules
+PROCESS-NAME,HazeOve,🔐Modules
+PROCESS-NAME,HazeOverLaunche,🔐Modules
+PROCESS-NAME,Homero,🔐Modules
+PROCESS-NAME,Input Source Pr,🔐Modules
+PROCESS-NAME,KeyboardHolde,🔐Modules
+PROCESS-NAME,Karabiner,🔐Modules
+PROCESS-NAME,Keyboard,🔐Modules
+PROCESS-NAME,Rectangl,🔐Modules
