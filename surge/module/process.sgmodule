@@ -8,12 +8,11 @@ PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,🔐Modules
 
 # Login
 PROCESS-NAME,AlDente,🔐Modules
-PROCESS-NAME,ClipBoo,🔐Modules
-PROCESS-NAME,HazeOve,🔐Modules
-PROCESS-NAME,HazeOverLaunche,🔐Modules
-PROCESS-NAME,Homero,🔐Modules
-PROCESS-NAME,Input Source Pr,🔐Modules
-PROCESS-NAME,KeyboardHolde,🔐Modules
-PROCESS-NAME,Karabiner,🔐Modules
-PROCESS-NAME,Keyboard,🔐Modules
-PROCESS-NAME,Rectangl,🔐Modules
+PROCESS-NAME,ClipBook,🔐Modules
+PROCESS-NAME,HazeOver*,🔐Modules
+PROCESS-NAME,Homerow,🔐Modules
+PROCESS-NAME,Input Source Pro,🔐Modules
+PROCESS-NAME,KeyboardHolder,🔐Modules
+PROCESS-NAME,Karabiner*,🔐Modules
+PROCESS-NAME,Keyboard*,🔐Modules
+PROCESS-NAME,Rectangle,🔐Modules
