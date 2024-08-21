@@ -8,6 +8,11 @@ https://github.com/pqrs-org/KE-complex_modifications#karabiner-elements-usage[Nu
 |===
 | File | Remark
 
-|xref:config/Switch-Input-Source.json[Switch-Input-Source]
+|xref:config/switch-input-source.json[Switch-Input-Source]
 | 使用 kbd:[⇥] 切换输入法，kbd:[⇥]kbd:[⇥] 为正常kbd:[⇥]（排除 `iTerm2` ）
+
+|xref:config/apple.json[Apple Keyboard]
+|
+* 交换 kbd:[⇪] kbd:[⌃]
+* kbd:[fn] + `Number` 触发 `Function Key`
 |===
