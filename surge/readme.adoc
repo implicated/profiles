@@ -1,6 +1,27 @@
 = Surge
 
+== Feature
+
+=== Base
+
+* 分流
+** 国内国外
+** chatGPT、Telegram 等指定网络地区
+* 解锁
+** tiktok地区解锁
+** 流媒体解锁
+
+=== Plus
+
+* 过滤
+** 广告过滤
+** 垃圾网站过滤
+* 拦截 (同时可以更新)
+** App 的上报
+** App 的联网
+
 == Ruleset
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/README.md[rules]
 
 https://github.com/DivineEngine/Profiles/tree/master[神机规则]
 
