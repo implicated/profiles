@@ -1,0 +1,7 @@
+#!name=Apple⚙️
+#!category=fc
+#!desc=Apple规则模块
+
+[Rule]
+#  Apple Maps
+PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,🔐Modules

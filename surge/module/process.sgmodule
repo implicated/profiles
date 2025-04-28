@@ -3,18 +3,39 @@
 #!desc=Process规则模块
 
 [Rule]
-# > Apple Maps
-PROCESS-NAME,/System/Applications/Maps.app/Contents/MacOS/Maps,🔐Modules
+# Translate
+DOMAIN-SUFFIX,mt.aliyuncs.com,🌐Direct
+DOMAIN-SUFFIX,api.deepseek.com,🌐Direct
+
+# Lark
+DOMAIN-KEYWORD,larksuite,🌑Proxy
+
+# Sentry
+DOMAIN,docs.sentry.io,🌑Proxy
 
 # Login
 PROCESS-NAME,Alfred,🔐Modules
 PROCESS-NAME,AlDente,🔐Modules
 PROCESS-NAME,Bartender*,🔐Modules
-PROCESS-NAME,ClipBook,🔐Modules
-PROCESS-NAME,HazeOver*,🔐Modules
-PROCESS-NAME,Homerow,🔐Modules
 PROCESS-NAME,Hammerspoon,🔐Modules
-PROCESS-NAME,Input Source Pro,🔐Modules
 PROCESS-NAME,Keyboard*,🔐Modules
 PROCESS-NAME,Karabiner*,🔐Modules
-PROCESS-NAME,Rectangle,🔐Modules
+PROCESS-NAME,HazeOver*,🔐Modules
+
+# PROCESS-NAME,Easydict,🔐Modules
+PROCESS-NAME,CleanShot X,🔐Modules
+PROCESS-NAME,Homerow,🔐Modules
+# PROCESS-NAME,Paletro,🔐Modules
+PROCESS-NAME,Karabiner*,🔐Modules
+PROCESS-NAME,Keyboard*,🔐Modules
+
+# Jetbrains
+DOMAIN-SUFFIX,plugins.jetbrains.com,🌑Proxy
+# DOMAIN-SUFFIX,package-search.services.jetbrains.com,🔐Modules
+PROCESS-NAME,appcode,🔐Modules
+PROCESS-NAME,datagrip,🔐Modules
+PROCESS-NAME,goland,🔐Modules
+PROCESS-NAME,idea,🔐Modules
+PROCESS-NAME,pycharm,🔐Modules
+PROCESS-NAME,rider,🔐Modules
+PROCESS-NAME,webstorm,🔐Modules
