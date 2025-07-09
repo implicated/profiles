@@ -8,7 +8,7 @@ DOMAIN-SUFFIX,mt.aliyuncs.com,🌐Direct
 DOMAIN-SUFFIX,api.deepseek.com,🌐Direct
 
 # Lark
-DOMAIN-KEYWORD,larksuite,🇸🇬
+DOMAIN-KEYWORD,larksuite,🌑Proxy
 
 # Sentry
 DOMAIN,docs.sentry.io,🌑Proxy
@@ -29,7 +29,9 @@ PROCESS-NAME,Homerow,🔐Modules
 
 # Jetbrains
 DOMAIN-SUFFIX,plugins.jetbrains.com,🌑Proxy
+DOMAIN-SUFFIX,cache-redirector.jetbrains.com,🌑Proxy
 DOMAIN-SUFFIX,downloads.marketplace.jetbrains.com,🌑Proxy
+DOMAIN-SUFFIX,dtahfujkndrht.cloudfront.net,🌑Proxy
 # DOMAIN-SUFFIX,package-search.services.jetbrains.com,🔐Modules
 # PROCESS-NAME,appcode,🔐Modules
 # PROCESS-NAME,datagrip,🔐Modules

@@ -3,3 +3,5 @@
 *.iws
 .git
 .idea
+.DS_Store
+surge/conf
