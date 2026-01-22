@@ -32,11 +32,12 @@ DOMAIN-SUFFIX,plugins.jetbrains.com,🌑Proxy
 DOMAIN-SUFFIX,cache-redirector.jetbrains.com,🌑Proxy
 DOMAIN-SUFFIX,downloads.marketplace.jetbrains.com,🌑Proxy
 DOMAIN-SUFFIX,dtahfujkndrht.cloudfront.net,🌑Proxy
+DOMAIN-SUFFIX,repo1.maven.org,🌑Proxy
 # DOMAIN-SUFFIX,package-search.services.jetbrains.com,🔐Modules
 # PROCESS-NAME,appcode,🔐Modules
-# PROCESS-NAME,datagrip,🔐Modules
-# PROCESS-NAME,goland,🔐Modules
-# PROCESS-NAME,idea,🔐Modules
-# PROCESS-NAME,pycharm,🔐Modules
+PROCESS-NAME,datagrip,🔐Modules
+PROCESS-NAME,goland,🔐Modules
+PROCESS-NAME,idea,🔐Modules
+PROCESS-NAME,pycharm,🔐Modules
 # PROCESS-NAME,rider,🔐Modules
 # PROCESS-NAME,webstorm,🔐Modules
